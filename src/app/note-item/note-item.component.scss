@@ -1,0 +1,35 @@
+* {
+  font-family: Blinker;
+}
+
+.note-container {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    background-color: #f1f1f1;
+  }
+
+  &:active {
+    background-color: #e2e2e2;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: .75em;
+    color: #ff0000;
+
+    &:hover {
+      color: #cc0000;
+    }
+  }
+}

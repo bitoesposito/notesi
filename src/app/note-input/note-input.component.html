@@ -1,0 +1,1 @@
+<textarea [(ngModel)]="noteContent" (keydown.enter)="addNote()" (keyup.enter)="noteContent=''" (input)="adjustTextareaHeight($event)" placeholder="Crea una nuova nota"></textarea>
